@@ -5,7 +5,6 @@ body {
 
 .container {
     max-width: 300px;
-    height: 400px;
     background-color: aliceblue;
     margin: 20vh auto;
     box-shadow: 0px 0px 50px 10px gray;
@@ -14,4 +13,21 @@ body {
 .all_buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button{
+border: 1px solid gray;
+line-height: 70px;
+text-align: center;
+font-size: 25px;
+cursor: pointer;
+}
+
+
+.display_part{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
 }
