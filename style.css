@@ -14,7 +14,6 @@ body {
 .all_buttons {
     display: grid;
     padding: 8px;
-
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -28,10 +27,12 @@ body {
 
 .display_part {
     text-align: right;
-    height: 70px;
+    height: 60px;
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
+    border: 1px solid gray;
+    margin: 4px;
 }
 
 #equal_button {
